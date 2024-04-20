@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  font-size: 12pt;
+  font-family: "Arial", sans-serif;
+}
+.page {
+  width: 210mm;
+  min-height: 297mm;
+   margin: 12px 12px 12px 12px;
+  padding: 15mm;
+  margin: 10mm auto;
+  overflow: hidden;
+
+  background: white;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+
+@media print {
+  html, body {
+    width:210mm;
+    height: 297mm;
+  }
+  
+  .page {
+  width: 210mm;
+  min-height: 297mm;
+
+  overflow: hidden;
+  background: white;
+
+  }
+}
+
+.logo{
+
+    height: 120px;
+    width: 120px;
+}
+
+.stInfo{
+      margin-right: 30px;
+}
+
+
+.column {
+  float: right;
+
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+

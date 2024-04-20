@@ -1,0 +1,190 @@
+/*font-family: 'Aref Ruqaa', serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Scheherazade', serif;
+font-family: 'Lateef', cursive;*/
+@import
+	url('https://fonts.googleapis.com/css?family=El+Messiri&subset=arabic')
+	;
+
+body {
+	font-family: 'El Messiri', sans-serif !important;
+}
+
+body {
+	background-color: #f5f5f5de;
+	background-color: rgba(245, 245, 245, 0.87);
+}
+
+.publishPrize-box {
+	background-color: #2f294ed0;
+	background-color: rgba(47, 41, 78, 0.842);
+	color: #ffffff;
+}
+
+.paymentpublish-box {
+	background-color: #013523;
+	background-color: rgba(1, 53, 35, 0.842);
+	color: #ffffff;
+}
+
+.publishPrizeConf-box {
+	background-color: #2f294ed0;
+	background-color: rgba(47, 41, 78, 0.842);
+	color: #ffffff;
+}
+
+.box-shadow {
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.supprt-box {
+	background-color: #f0ddd6af;
+	background-color: rgba(240, 221, 214, 0.719);
+}
+
+.question-box {
+	background-color: #e5dcf5a9;
+	background-color: rgba(229, 220, 245, 0.726);
+}
+
+.calender-box {
+	background-color: #e4eec8a9;
+	background-color: rgba(228, 238, 200, 0.658);
+}
+
+.publishPrize-box {
+	background-color: #2f294ed0;
+	background-color: rgba(47, 41, 78, 0.842);
+	color: #ffffff;
+}
+
+.dewan-box {
+	background-color: #c0e7b686;
+	background-color: rgba(193, 231, 182, 0.541);
+}
+
+.outterAcademic-box {
+	background-color: #c4ddfaa9;
+	background-color: rgba(196, 221, 250, 0.692)
+}
+
+.cal-input {
+	width: 20vw;
+}
+
+.year-input {
+	width: 4vw;
+}
+
+.sem-input {
+	width: 10vw;
+}
+
+.date {
+	width: 8vw;
+}
+
+.uncomplete {
+	display: none;
+}
+
+.completed {
+	display: block;
+}
+
+.budget-box {
+	background-color: #f8f8a186;
+	background-color: rgba(248, 248, 161, 0.479);
+}
+
+.CounUni-box {
+	background-color: #e9b5dc86;
+	background-color: rgba(233, 181, 220, 0.438);
+}
+
+.magazine-box {
+	background-color: #b5e9e686;
+	background-color: rgba(181, 233, 230, 0.534);
+}
+
+.doc-box {
+	background-color: #c4faf7a9;
+	background-color: rgba(196, 250, 246, 0.678)
+}
+
+.doc-support-box {
+	background-color: #c4faf7a9;
+	background-color: rgba(196, 250, 246, 0.678)
+}
+
+.res-link-box {
+	background-color: #fac4c8a9;
+	background-color: rgba(250, 196, 200, 0.671)
+}
+
+.link-box {
+	background-color: #c4ddfaa9;
+	background-color: rgba(196, 221, 250, 0.692)
+}
+
+.currency-box {
+	background-color: #b6b6b686;
+	background-color: rgba(182, 182, 182, 0.521);
+}
+
+.box-shadow {
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-100 {
+	line-height: 1;
+}
+
+.lh-125 {
+	line-height: 1.25;
+}
+
+.lh-150 {
+	line-height: 1.5;
+}
+
+body {
+	overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+@media ( max-width : 991.98px) {
+	.offcanvas-collapse {
+		position: fixed;
+		top: 56px; /* Height of navbar */
+		bottom: 0;
+		left: 100%;
+		width: 100%;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		overflow-y: auto;
+		visibility: hidden;
+		background-color: #343a40;
+		background-color: rgb(52, 58, 64);
+		transition-timing-function: ease-in-out;
+		transition-duration: .3s;
+		transition-property: left, visibility;
+	}
+}
+
+/*   span{
+        height: 20px;
+        margin-right: 20px;
+        text-align: center; 
+        color: rgb(163, 64, 64);
+        width : 0; 
+        display: inline-block;
+        transition: 0.2s linear;
+        opacity: 0;
+    }
+    
+    td:hover span{
+        width:40px;
+        opacity: 1.0;
+    
+    }*/
